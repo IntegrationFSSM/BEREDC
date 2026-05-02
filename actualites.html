@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Actualités, publications et insights de BEREDC. Découvrez nos analyses économiques, annonces de formations et articles d'expertise.">
+  <title>Actualités & Insights | BEREDC - Publications et Analyses</title>
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Montserrat:wght@600;700;800&display=swap" rel="stylesheet">
+  
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🏛️</text></svg>">
+</head>
+<body>
+  <header class="header" role="banner">
+    <div class="container header-inner">
+      <a href="index.html" class="logo" aria-label="BEREDC - Page d'accueil">
+        <img src="light%20mode%20logo%20.png" alt="BEREDC" class="logo-img logo-light" width="150" height="50">
+        <img src="darkmodelogo%20.png" alt="BEREDC" class="logo-img logo-dark" width="150" height="50">
+      </a>
+      
+      <button class="mobile-menu-btn" id="mobile-menu-btn" aria-label="Menu de navigation" aria-expanded="false" aria-controls="main-nav">
+        <span class="hamburger"></span>
+        <span class="menu-label">Menu</span>
+      </button>
+      
+      <nav class="nav" id="main-nav" role="navigation" aria-label="Navigation principale">
+        <ul class="nav-list">
+          <li><a href="index.html" class="nav-link">Accueil</a></li>
+          <li><a href="a-propos.html" class="nav-link">À Propos</a></li>
+          <li><a href="expertises.html" class="nav-link">Expertises</a></li>
+          <li><a href="actualites.html" class="nav-link active">Actualités</a></li>
+          <li><a href="contact.html" class="nav-link">Contact</a></li>
+        </ul>
+        
+        <button class="theme-toggle" id="theme-toggle" aria-label="Basculer entre le mode clair et sombre">
+          <span class="theme-icon" aria-hidden="true">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+          </span>
+        </button>
+      </nav>
+    </div>
+  </header>
+
+  <main class="main">
+    <!-- Hero -->
+    <section class="section" style="padding-top: 6rem; background: linear-gradient(135deg, var(--bg-secondary) 0%, var(--bg-tertiary) 100%);">
+      <div class="container">
+        <div class="text-center" style="max-width: 800px; margin: 0 auto;">
+          <span class="section-label animate-on-scroll">Restez informés</span>
+          <h1 class="animate-on-scroll" style="font-size: 3rem; margin-bottom: 1.5rem;">Actualités & Insights</h1>
+          <p class="animate-on-scroll" style="font-size: 1.25rem; color: var(--text-secondary);">
+            Découvrez nos analyses, publications et les dernières actualités de BEREDC
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Actualités -->
+    <section class="section">
+      <div class="container">
+        <div class="news-grid">
+          <article class="news-card animate-on-scroll">
+            <div style="background: linear-gradient(135deg, var(--color-primary), var(--color-primary-light)); height: 200px; display: flex; align-items: center; justify-content: center; color: white; font-size: 3rem;">
+              📊
+            </div>
+            <div class="news-content">
+              <p class="news-date">15 Janvier 2026</p>
+              <h3 class="news-title">Nouvelle étude sur l'impact des politiques de formation professionnelle</h3>
+              <p class="news-excerpt">
+                BEREDC publie les résultats d'une étude majeure sur l'évaluation de l'impact 
+                des programmes de formation sur l'employabilité des jeunes diplômés...
+              </p>
+              <a href="#" class="card-link" style="margin-top: 1rem; display: inline-block;">Lire la suite →</a>
+            </div>
+          </article>
+          
+          <article class="news-card animate-on-scroll">
+            <div style="background: linear-gradient(135deg, var(--color-secondary), var(--color-secondary-light)); height: 200px; display: flex; align-items: center; justify-content: center; color: white; font-size: 3rem;">
+              🎓
+            </div>
+            <div class="news-content">
+              <p class="news-date">10 Janvier 2026</p>
+              <h3 class="news-title">Ouverture des inscriptions : Formation en Analyse Financière Avancée</h3>
+              <p class="news-excerpt">
+                La session de mars 2026 est désormais ouverte aux inscriptions. 
+                Programme complet sur 5 jours avec certification professionnelle...
+              </p>
+              <a href="expertises.html#formation" class="card-link" style="margin-top: 1rem; display: inline-block;">S'inscrire →</a>
+            </div>
+          </article>
+          
+          <article class="news-card animate-on-scroll">
+            <div style="background: linear-gradient(135deg, var(--color-accent), #d4b43a); height: 200px; display: flex; align-items: center; justify-content: center; color: var(--color-primary-dark); font-size: 3rem;">
+              🤝
+            </div>
+            <div class="news-content">
+              <p class="news-date">5 Janvier 2026</p>
+              <h3 class="news-title">Partenariat stratégique avec des institutions internationales</h3>
+              <p class="news-excerpt">
+                BEREDC renforce son réseau de partenaires avec la signature de conventions 
+                de coopération avec plusieurs institutions de recherche européennes...
+              </p>
+              <a href="#" class="card-link" style="margin-top: 1rem; display: inline-block;">En savoir plus →</a>
+            </div>
+          </article>
+          
+          <article class="news-card animate-on-scroll">
+            <div style="background: linear-gradient(135deg, #667eea, #764ba2); height: 200px; display: flex; align-items: center; justify-content: center; color: white; font-size: 3rem;">
+              📈
+            </div>
+            <div class="news-content">
+              <p class="news-date">20 Décembre 2025</p>
+              <h3 class="news-title">Tendances économiques 2026 : Analyse et Perspectives</h3>
+              <p class="news-excerpt">
+                Notre équipe d'experts publie un rapport complet sur les tendances économiques 
+                attendues pour l'année 2026 au Maroc et dans la région MENA...
+              </p>
+              <a href="#" class="card-link" style="margin-top: 1rem; display: inline-block;">Télécharger le rapport →</a>
+            </div>
+          </article>
+          
+          <article class="news-card animate-on-scroll">
+            <div style="background: linear-gradient(135deg, #f093fb, #f5576c); height: 200px; display: flex; align-items: center; justify-content: center; color: white; font-size: 3rem;">
+              🏆
+            </div>
+            <div class="news-content">
+              <p class="news-date">15 Décembre 2025</p>
+              <h3 class="news-title">BEREDC distingué pour la qualité de ses programmes de formation</h3>
+              <p class="news-excerpt">
+                Reconnaissance institutionnelle pour l'excellence pédagogique et l'impact 
+                mesurable de nos formations en ingénierie financière...
+              </p>
+              <a href="#" class="card-link" style="margin-top: 1rem; display: inline-block;">Lire l'article →</a>
+            </div>
+          </article>
+          
+          <article class="news-card animate-on-scroll">
+            <div style="background: linear-gradient(135deg, #4facfe, #00f2fe); height: 200px; display: flex; align-items: center; justify-content: center; color: white; font-size: 3rem;">
+              📋
+            </div>
+            <div class="news-content">
+              <p class="news-date">1 Décembre 2025</p>
+              <h3 class="news-title">Nouvelle méthodologie d'évaluation d'impact développée par BEREDC</h3>
+              <p class="news-excerpt">
+                Innovation méthodologique : notre équipe a développé un nouvel outil 
+                d'évaluation d'impact intégrant l'intelligence artificielle...
+              </p>
+              <a href="#" class="card-link" style="margin-top: 1rem; display: inline-block;">Découvrir →</a>
+            </div>
+          </article>
+        </div>
+        
+        <!-- Pagination -->
+        <div class="text-center" style="margin-top: 3rem;">
+          <nav aria-label="Pagination des actualités">
+            <div style="display: inline-flex; gap: 0.5rem;">
+              <a href="#" class="btn btn-secondary" aria-label="Page précédente" style="padding: 0.5rem 1rem;">←</a>
+              <a href="#" class="btn btn-primary" aria-current="page" style="padding: 0.5rem 1rem;">1</a>
+              <a href="#" class="btn btn-secondary" style="padding: 0.5rem 1rem;">2</a>
+              <a href="#" class="btn btn-secondary" style="padding: 0.5rem 1rem;">3</a>
+              <span style="padding: 0.5rem; color: var(--text-muted);">...</span>
+              <a href="#" class="btn btn-secondary" aria-label="Page suivante" style="padding: 0.5rem 1rem;">→</a>
+            </div>
+          </nav>
+        </div>
+      </div>
+    </section>
+
+    <!-- Newsletter -->
+    <section class="section services-section">
+      <div class="container">
+        <div class="text-center" style="max-width: 600px; margin: 0 auto;">
+          <h2 class="animate-on-scroll" style="margin-bottom: 1rem;">Restez informé</h2>
+          <p class="animate-on-scroll" style="color: var(--text-secondary); margin-bottom: 2rem;">
+            Abonnez-vous à notre newsletter pour recevoir nos dernières publications 
+            et actualités directement dans votre boîte mail.
+          </p>
+          <form class="animate-on-scroll" style="display: flex; gap: 1rem; flex-wrap: wrap; justify-content: center;">
+            <input type="email" placeholder="Votre adresse email" class="form-input" style="flex: 1; min-width: 250px; max-width: 350px;" required>
+            <button type="submit" class="btn btn-primary">S'abonner</button>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer" role="contentinfo">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <span class="logo-text">BER<span>E</span>DC</span>
+          <p class="footer-description">Bureau des Études, Recherche, Évaluation et Développement des Compétences.</p>
+          <p style="color: rgba(255,255,255,0.5); font-size: 0.875rem;">ICE: 002988800000095</p>
+        </div>
+        <div>
+          <h3 class="footer-title">Navigation</h3>
+          <ul class="footer-links">
+            <li><a href="index.html" class="footer-link">Accueil</a></li>
+            <li><a href="a-propos.html" class="footer-link">À Propos</a></li>
+            <li><a href="expertises.html" class="footer-link">Expertises</a></li>
+            <li><a href="actualites.html" class="footer-link">Actualités</a></li>
+            <li><a href="contact.html" class="footer-link">Contact</a></li>
+          </ul>
+        </div>
+        <div>
+          <h3 class="footer-title">Expertises</h3>
+          <ul class="footer-links">
+            <li><a href="expertises.html#etudes" class="footer-link">Études & Recherche</a></li>
+            <li><a href="expertises.html#formation" class="footer-link">Formation</a></li>
+            <li><a href="expertises.html#services" class="footer-link">Services</a></li>
+          </ul>
+        </div>
+        <div>
+          <h3 class="footer-title">Contact</h3>
+          <ul class="footer-links">
+            <li style="color: rgba(255,255,255,0.7); font-size: 0.875rem;">Résidence Al Ihssane Mabrouka<br>Marrakech, Maroc</li>
+            <li><a href="mailto:contact@beredc.ma" class="footer-link">contact@beredc.ma</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p class="footer-copyright">© 2026 BEREDC S.A.R.L A.U. Tous droits réservés.</p>
+        <div class="footer-legal">
+          <a href="#">Mentions légales</a>
+          <a href="#">Politique de confidentialité</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js" defer></script>
+</body>
+</html>

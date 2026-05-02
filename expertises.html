@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Découvrez les expertises de BEREDC : Pôle Études et Recherche, Pôle Formation avec focus sur l'ingénierie financière, et Pôle Services (événementiel, gestion, communication).">
+  <title>Nos Expertises | BEREDC - Études, Formation & Services</title>
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Montserrat:wght@600;700;800&display=swap" rel="stylesheet">
+  
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🏛️</text></svg>">
+  
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "ItemList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Pôle Études et Recherche",
+        "description": "Études socio-économiques, évaluation d'impact et recherche appliquée"
+      },
+      {
+        "@type": "ListItem", 
+        "position": 2,
+        "name": "Pôle Formation",
+        "description": "Formation professionnelle avec focus sur l'ingénierie financière"
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "Pôle Services",
+        "description": "Événementiel, gestion et communication"
+      }
+    ]
+  }
+  </script>
+</head>
+<body>
+  <header class="header" role="banner">
+    <div class="container header-inner">
+      <a href="index.html" class="logo" aria-label="BEREDC - Page d'accueil">
+        <img src="light%20mode%20logo%20.png" alt="BEREDC" class="logo-img logo-light" width="150" height="50">
+        <img src="darkmodelogo%20.png" alt="BEREDC" class="logo-img logo-dark" width="150" height="50">
+      </a>
+      
+      <button class="mobile-menu-btn" id="mobile-menu-btn" aria-label="Menu de navigation" aria-expanded="false" aria-controls="main-nav">
+        <span class="hamburger"></span>
+        <span class="menu-label">Menu</span>
+      </button>
+      
+      <nav class="nav" id="main-nav" role="navigation" aria-label="Navigation principale">
+        <ul class="nav-list">
+          <li><a href="index.html" class="nav-link">Accueil</a></li>
+          <li><a href="a-propos.html" class="nav-link">À Propos</a></li>
+          <li><a href="expertises.html" class="nav-link active">Expertises</a></li>
+          <li><a href="actualites.html" class="nav-link">Actualités</a></li>
+          <li><a href="contact.html" class="nav-link">Contact</a></li>
+        </ul>
+        
+        <button class="theme-toggle" id="theme-toggle" aria-label="Basculer entre le mode clair et sombre">
+          <span class="theme-icon" aria-hidden="true">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+          </span>
+        </button>
+      </nav>
+    </div>
+  </header>
+
+  <main class="main">
+    <!-- Hero -->
+    <section class="section" style="padding-top: 6rem; background: linear-gradient(135deg, var(--bg-secondary) 0%, var(--bg-tertiary) 100%);">
+      <div class="container">
+        <div class="text-center" style="max-width: 800px; margin: 0 auto;">
+          <span class="section-label animate-on-scroll">Nos Domaines</span>
+          <h1 class="animate-on-scroll" style="font-size: 3rem; margin-bottom: 1.5rem;">Nos Expertises</h1>
+          <p class="animate-on-scroll" style="font-size: 1.25rem; color: var(--text-secondary);">
+            Trois pôles complémentaires pour répondre à l'ensemble de vos besoins 
+            en études, formation et services événementiels.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Pôle Études -->
+    <section id="etudes" class="section">
+      <div class="container">
+        <div class="section-header animate-on-scroll">
+          <span class="section-label">Pôle 1</span>
+          <h2 class="section-title">Études & Recherche</h2>
+          <p class="section-description">
+            Expertise reconnue en recherche socio-économique et évaluation des politiques publiques
+          </p>
+        </div>
+        
+        <div class="cards-grid">
+          <article class="card animate-on-scroll">
+            <div class="card-icon">📊</div>
+            <h3 class="card-title">Études Socio-économiques</h3>
+            <p class="card-description">
+              Analyse approfondie des dynamiques économiques et sociales, études de marché, 
+              études de faisabilité et prospective territoriale pour les décideurs publics et privés.
+            </p>
+            <ul style="color: var(--text-secondary); font-size: 0.875rem; margin-top: 1rem;">
+              <li>• Études de marché</li>
+              <li>• Études de faisabilité</li>
+              <li>• Diagnostic territorial</li>
+              <li>• Prospective économique</li>
+            </ul>
+          </article>
+          
+          <article class="card animate-on-scroll">
+            <div class="card-icon">📈</div>
+            <h3 class="card-title">Évaluation d'Impact</h3>
+            <p class="card-description">
+              Mesure de l'efficacité des politiques publiques et des programmes de développement 
+              grâce à des méthodologies rigoureuses et innovantes.
+            </p>
+            <ul style="color: var(--text-secondary); font-size: 0.875rem; margin-top: 1rem;">
+              <li>• Évaluation d'impact</li>
+              <li>• Analyse coût-bénéfice</li>
+              <li>• Suivi-évaluation de projets</li>
+              <li>• Audits de performance</li>
+            </ul>
+          </article>
+          
+          <article class="card animate-on-scroll">
+            <div class="card-icon">🔬</div>
+            <h3 class="card-title">Recherche Appliquée</h3>
+            <p class="card-description">
+              Conception et réalisation de recherches sur mesure pour éclairer la décision publique 
+              et accompagner l'innovation sociale et économique.
+            </p>
+            <ul style="color: var(--text-secondary); font-size: 0.875rem; margin-top: 1rem;">
+              <li>• Recherche-action</li>
+              <li>• Enquêtes quantitatives</li>
+              <li>• Études qualitatives</li>
+              <li>• Analyse de données</li>
+            </ul>
+          </article>
+          
+          <article class="card animate-on-scroll">
+            <div class="card-icon">💡</div>
+            <h3 class="card-title">Conseil Stratégique</h3>
+            <p class="card-description">
+              Accompagnement personnalisé dans la définition et la mise en œuvre de stratégies 
+              de développement et d'amélioration de la performance.
+            </p>
+            <ul style="color: var(--text-secondary); font-size: 0.875rem; margin-top: 1rem;">
+              <li>• Planification stratégique</li>
+              <li>• Conduite du changement</li>
+              <li>• Optimisation des processus</li>
+              <li>• Accompagnement institutionnel</li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Pôle Formation -->
+    <section id="formation" class="section services-section">
+      <div class="container">
+        <div class="section-header animate-on-scroll">
+          <span class="section-label">Pôle 2</span>
+          <h2 class="section-title">Formation & Développement</h2>
+          <p class="section-description">
+            Renforcement des capacités avec un focus sur l'ingénierie financière et la gestion
+          </p>
+        </div>
+        
+        <!-- Filter Buttons -->
+        <div class="text-center" style="margin-bottom: 2rem;">
+          <button class="filter-btn btn btn-secondary active" data-filter="all" style="margin: 0.25rem;">Toutes</button>
+          <button class="filter-btn btn btn-secondary" data-filter="finance" style="margin: 0.25rem;">Finance</button>
+          <button class="filter-btn btn btn-secondary" data-filter="gestion" style="margin: 0.25rem;">Gestion</button>
+          <button class="filter-btn btn btn-secondary" data-filter="management" style="margin: 0.25rem;">Management</button>
+        </div>
+        
+        <div class="cards-grid">
+          <article class="card formation-card animate-on-scroll" data-category="finance">
+            <span class="formation-badge">Finance</span>
+            <h3 class="card-title">Analyse Financière Avancée</h3>
+            <p class="card-description">
+              Maîtrisez les techniques d'analyse des états financiers, les ratios clés 
+              et les méthodes de diagnostic financier approfondi.
+            </p>
+            <div class="formation-meta">
+              <span>📅 5 jours</span>
+              <span>👥 15 participants max</span>
+            </div>
+          </article>
+          
+          <article class="card formation-card animate-on-scroll" data-category="finance">
+            <span class="formation-badge">Finance</span>
+            <h3 class="card-title">Gestion de Trésorerie</h3>
+            <p class="card-description">
+              Optimisez la gestion de votre trésorerie : prévisionnels, budgets, 
+              politique de financement et gestion des risques de change.
+            </p>
+            <div class="formation-meta">
+              <span>📅 3 jours</span>
+              <span>👥 12 participants max</span>
+            </div>
+          </article>
+          
+          <article class="card formation-card animate-on-scroll" data-category="finance">
+            <span class="formation-badge">Finance</span>
+            <h3 class="card-title">Évaluation d'Entreprise</h3>
+            <p class="card-description">
+              Méthodes et pratiques de valorisation : DCF, comparables de marché, 
+              actif net et due diligence financière.
+            </p>
+            <div class="formation-meta">
+              <span>📅 4 jours</span>
+              <span>👥 10 participants max</span>
+            </div>
+          </article>
+          
+          <article class="card formation-card animate-on-scroll" data-category="gestion">
+            <span class="formation-badge">Gestion</span>
+            <h3 class="card-title">Gestion de Projets (PMI)</h3>
+            <p class="card-description">
+              Méthodologies et outils de gestion de projets selon les standards 
+              internationaux avec certification possible.
+            </p>
+            <div class="formation-meta">
+              <span>📅 5 jours</span>
+              <span>👥 20 participants max</span>
+            </div>
+          </article>
+          
+          <article class="card formation-card animate-on-scroll" data-category="gestion">
+            <span class="formation-badge">Gestion</span>
+            <h3 class="card-title">Contrôle de Gestion</h3>
+            <p class="card-description">
+              Tableaux de bord, budgeting, reporting et aide à la décision 
+              pour managers et contrôleurs de gestion.
+            </p>
+            <div class="formation-meta">
+              <span>📅 4 jours</span>
+              <span>👥 15 participants max</span>
+            </div>
+          </article>
+          
+          <article class="card formation-card animate-on-scroll" data-category="management">
+            <span class="formation-badge">Management</span>
+            <h3 class="card-title">Leadership & Management</h3>
+            <p class="card-description">
+              Développez vos compétences managériales : communication, gestion d'équipe, 
+              prise de décision et conduite du changement.
+            </p>
+            <div class="formation-meta">
+              <span>📅 3 jours</span>
+              <span>👥 12 participants max</span>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Pôle Services -->
+    <section id="services" class="section">
+      <div class="container">
+        <div class="section-header animate-on-scroll">
+          <span class="section-label">Pôle 3</span>
+          <h2 class="section-title">Services Complémentaires</h2>
+          <p class="section-description">
+            Services professionnels pour accompagner vos événements et optimiser votre organisation
+          </p>
+        </div>
+        
+        <div class="cards-grid">
+          <article class="card animate-on-scroll" id="evenementiel">
+            <div class="card-icon">🎉</div>
+            <h3 class="card-title">Événementiel</h3>
+            <p class="card-description">
+              Organisation complète de séminaires, colloques, conférences et événements professionnels 
+              de la conception à la réalisation.
+            </p>
+            <ul style="color: var(--text-secondary); font-size: 0.875rem; margin-top: 1rem;">
+              <li>• Séminaires et colloques</li>
+              <li>• Conférences thématiques</li>
+              <li>• Ateliers de formation</li>
+              <li>• Team building</li>
+            </ul>
+          </article>
+          
+          <article class="card animate-on-scroll">
+            <div class="card-icon">⚙️</div>
+            <h3 class="card-title">Gestion & Administration</h3>
+            <p class="card-description">
+              Services d'appui à la gestion : secrétariat, gestion documentaire, 
+              organisation de réunions et coordination de projets.
+            </p>
+            <ul style="color: var(--text-secondary); font-size: 0.875rem; margin-top: 1rem;">
+              <li>• Support administratif</li>
+              <li>• Gestion documentaire</li>
+              <li>• Coordination de projets</li>
+              <li>• Organisation de réunions</li>
+            </ul>
+          </article>
+          
+          <article class="card animate-on-scroll">
+            <div class="card-icon">📢</div>
+            <h3 class="card-title">Communication</h3>
+            <p class="card-description">
+              Accompagnement en stratégie de communication, création de supports, 
+              rédaction professionnelle et relations publiques.
+            </p>
+            <ul style="color: var(--text-secondary); font-size: 0.875rem; margin-top: 1rem;">
+              <li>• Stratégie de communication</li>
+              <li>• Création de contenu</li>
+              <li>• Supports de formation</li>
+              <li>• Relations publiques</li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA -->
+    <section class="section" style="background: linear-gradient(135deg, var(--color-primary) 0%, var(--color-primary-dark) 100%); color: white;">
+      <div class="container text-center">
+        <h2 class="animate-on-scroll" style="color: white; margin-bottom: 1rem;">Besoin d'une expertise spécifique ?</h2>
+        <p class="animate-on-scroll" style="color: rgba(255,255,255,0.8); margin-bottom: 2rem;">
+          Contactez-nous pour discuter de vos besoins et obtenir un devis personnalisé.
+        </p>
+        <a href="contact.html" class="btn animate-on-scroll" style="background: white; color: var(--color-primary);">Demander un devis</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer" role="contentinfo">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <span class="logo-text">BER<span>E</span>DC</span>
+          <p class="footer-description">Bureau des Études, Recherche, Évaluation et Développement des Compétences.</p>
+          <p style="color: rgba(255,255,255,0.5); font-size: 0.875rem;">ICE: 002988800000095</p>
+        </div>
+        <div>
+          <h3 class="footer-title">Navigation</h3>
+          <ul class="footer-links">
+            <li><a href="index.html" class="footer-link">Accueil</a></li>
+            <li><a href="a-propos.html" class="footer-link">À Propos</a></li>
+            <li><a href="expertises.html" class="footer-link">Expertises</a></li>
+            <li><a href="actualites.html" class="footer-link">Actualités</a></li>
+            <li><a href="contact.html" class="footer-link">Contact</a></li>
+          </ul>
+        </div>
+        <div>
+          <h3 class="footer-title">Expertises</h3>
+          <ul class="footer-links">
+            <li><a href="expertises.html#etudes" class="footer-link">Études & Recherche</a></li>
+            <li><a href="expertises.html#formation" class="footer-link">Formation</a></li>
+            <li><a href="expertises.html#services" class="footer-link">Services</a></li>
+          </ul>
+        </div>
+        <div>
+          <h3 class="footer-title">Contact</h3>
+          <ul class="footer-links">
+            <li style="color: rgba(255,255,255,0.7); font-size: 0.875rem;">Résidence Al Ihssane Mabrouka<br>Marrakech, Maroc</li>
+            <li><a href="mailto:contact@beredc.ma" class="footer-link">contact@beredc.ma</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p class="footer-copyright">© 2026 BEREDC S.A.R.L A.U. Tous droits réservés.</p>
+        <div class="footer-legal">
+          <a href="#">Mentions légales</a>
+          <a href="#">Politique de confidentialité</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js" defer></script>
+</body>
+</html>
