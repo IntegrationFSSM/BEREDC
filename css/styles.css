@@ -200,6 +200,16 @@ p {
   object-fit: contain;
 }
 
+/* Logo name text - same color as logo in both modes */
+.logo-name {
+  font-family: var(--font-heading);
+  font-size: var(--text-xl);
+  font-weight: 800;
+  color: #1a365d; /* Dark blue from logo - visible on light backgrounds */
+  letter-spacing: -0.02em;
+  margin-left: var(--space-sm);
+}
+
 /* Logo for light theme (dark logo image) */
 .logo-light {
   display: block;
@@ -218,6 +228,10 @@ p {
   display: block;
 }
 
+[data-theme="dark"] .logo-name {
+  color: #ffffff; /* White for dark mode */
+}
+
 /* Fallback for browsers without JS */
 @media (prefers-color-scheme: dark) {
   html:not([data-theme]) .logo-light {
@@ -225,6 +239,9 @@ p {
   }
   html:not([data-theme]) .logo-dark {
     display: block;
+  }
+  html:not([data-theme]) .logo-name {
+    color: #ffffff;
   }
 }
 
@@ -301,7 +318,6 @@ p {
   color: var(--text-primary);
   z-index: 1001;
   transition: all var(--transition-fast);
-  display: flex;
   align-items: center;
   gap: var(--space-sm);
   font-family: var(--font-primary);
